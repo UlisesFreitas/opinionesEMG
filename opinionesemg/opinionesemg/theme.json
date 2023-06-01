@@ -1,0 +1,28 @@
+{
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "Fuente del sistema",
+					"slug": "system-font"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"typography": {
+			"fontSize": "var:preset|font-size|small"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}
